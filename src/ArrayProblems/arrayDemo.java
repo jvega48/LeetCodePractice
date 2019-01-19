@@ -3,7 +3,8 @@ package ArrayProblems;
 import java.util.Arrays;
 
 public class arrayDemo {
-	
+	//Remove Duplicates from Sorted Array
+	// O(N)
 	public static int removeDuple(int[] a) {
 		if(a.length == 0) return 0;
 		if(a.length == 1) return 1;
